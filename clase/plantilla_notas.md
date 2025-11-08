@@ -1,7 +1,7 @@
 # 🗒️ Registro de Trabajo en Clase - Taller 7
 
 ## 📆 Fecha de la sesión
-_Indique la fecha de la clase en que se trabajó este taller._
+_08/11/2025_
 
 ## 👥 Integrantes presentes
 - Juan David Cetina Gómez
