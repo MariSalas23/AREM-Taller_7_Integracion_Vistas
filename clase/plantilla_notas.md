@@ -10,16 +10,37 @@ _08/11/2025_
 
 ## 🧠 Actividades realizadas en clase
 
-Describa brevemente qué se hizo durante la sesión:
+Durante la sesión se trabajó sobre el caso base FarmApp, integrando las vistas de negocio, información, aplicaciones, infraestructura y seguridad
 
-- ¿Qué se discutió con el equipo?
-- ¿Qué decisiones de modelado se tomaron?
-- ¿Qué herramientas se usaron (papel, pizarra, draw.io, Astah)?
-- ¿Qué parte del trabajo se alcanzó a desarrollar?
+¿Qué se discutió con el equipo?
+
+- Se analizó el funcionamiento general de FarmApp como cadena de farmacias con integración e-commerce.
+- Se revisaron los procesos clave, como compra, prescripción, despacho y entrega.
+- Se identificaron las entidades principales de información: Producto, Cliente, Pedido, Inventario, Descuentos.
+- Se discutieron dependencias entre capas y riesgos de seguridad, como manejo de datos personales y control de roles.
+
+¿Qué decisiones de modelado se tomaron?
+
+- Modelar el proceso de compra online como proceso principal para representar en BPMN.
+- Se definió usar una estructura de capas similar a TOGAF para ordenar las vistas.
+- Mantener las entidades de información estandarizadas para facilitar la trazabilidad entre vistas.
+- A nivel de aplicaciones, se decidió representar las integraciones críticas.
+- Para la infraestructura se modelará un esquema híbrido, nube para servicios digitales y servidores locales en tiendas.
+
+¿Qué herramientas se usaron (papel, pizarra, draw.io, Astah)?
+
+- Se usó en mayor medida Miro.
+
+¿Qué parte del trabajo se alcanzó a desarrollar?
+
+- Se completó el boceto inicial de las cinco vistas arquitectónicas.
+- Se realizó el diagrama del proceso de compra online en BPMN.
+- Se identificaron las entidades clave de información y su relación con los procesos.
+- Se dejó pendiente la formalización de la arquitectura de aplicaciones e infraestructura en diagramas digitales.
 
 ## 🧩 Boceto inicial del modelo
 
-> (Puede insertar aquí una imagen del boceto, una captura de pantalla o un diagrama preliminar si ya fue hecho en digital)
+<img width="1052" height="666" alt="image" src="https://github.com/user-attachments/assets/0f4e5d61-6109-4a2c-9ff8-f4634392b783" />
 
 ## 🔁 Tareas definidas para complementar el taller
 
@@ -27,9 +48,9 @@ Anote las responsabilidades acordadas entre los miembros del equipo para complet
 
 | Tarea asignada | Responsable | Fecha estimada |
 |----------------|-------------|----------------|
-| Modelado final en draw.io | Nombre 1 | 10/08 |
-| Redacción del informe     | Nombre 2 | 11/08 |
-| Investigación y referencias | Nombre 3 | 12/08 |
+| Modelado final en draw.io | Ana Lucía Quintero Vargas y Juan David Cetina Gómez | 10/08 |
+| Redacción del informe     | Mariana Salas Gutiérrez | 11/08 |
+| Investigación y referencias | Juan David Cetina Gómez 3 | 12/08 |
 
 ---
 
