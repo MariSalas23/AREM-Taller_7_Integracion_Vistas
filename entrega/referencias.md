@@ -8,11 +8,8 @@ _Taller 7 - Integración de Vistas de Arquitectura_
 ---
 
 ## 📚 Referencias utilizadas
-
-1. Apellido, Nombre. *Título del libro o artículo*. Editorial, Año. URL o DOI.  
-2. Organización. *Especificación técnica o estándar consultado*. URL.  
-3. Sitio web institucional. "Título del artículo o página". [Enlace](https://ejemplo.com). Fecha de consulta: DD/MM/AAAA.  
-4. Otro recurso académico o técnico citado.
+- [1] The Open Group, ArchiMate 101: A Practical Introduction.- 
+[2] Universidad del Bío-Bío, Tesis de Magíster en Ciencias de la Computación.
 
 ---
 
