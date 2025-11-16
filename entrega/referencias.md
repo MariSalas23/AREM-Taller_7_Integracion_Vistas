@@ -8,8 +8,7 @@ _Taller 7 - Integración de Vistas de Arquitectura_
 ---
 
 ## 📚 Referencias utilizadas
-- [1] The Open Group, ArchiMate 101: A Practical Introduction.- 
-[2] Universidad del Bío-Bío, Tesis de Magíster en Ciencias de la Computación.
+- [1] P. Dragstra, Enterprise Architecture: The Selection Process of an Enterprise Architecture Toolset to Support Understanding and Governing the Enterprise, Eindhoven University of Technology, 2005.
 
 ---
 
