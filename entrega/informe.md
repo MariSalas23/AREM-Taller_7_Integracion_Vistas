@@ -31,14 +31,16 @@ Incluya un análisis sobre:
 
 ## 🔍 Investigación complementaria
 ### Tema investigado:
-(Ej: Buenas prácticas BPMN, comparación TOGAF vs C4, principios de seguridad STRIDE, etc.)
+ArchiMate
 
 ### Resumen:
-Describa en 2–3 párrafos lo investigado, citando fuentes cuando sea necesario. Incluya cómo se relaciona con el taller.
+ArchiMate es un lenguaje visual estandarizado orientado a la Arquitectura Empresarial, creado por The Open Group. Su propósito es representar, analizar y mostrar de manera coherente cómo se relacionan los distintos elementos de una organización, desde los procesos del negocio hasta las soluciones tecnológicas que los soportan [1]. Puede ser altamente complejo, ArchiMate incorpora viewpoints, entendidos como guías o convenciones que permiten generar vistas parciales del modelo para atender inquietudes específicas de diferentes interesados. La especificación se estructura en capas, aplicación y tecnología, además estructura activa, comportamiento y estructura pasiva, lo que posibilita construir una perspectiva integral de la organización. Gracias a esta estructura multinivel, ArchiMate funciona como un lenguaje de descripción de alto nivel que puede enlazarse con otros lenguajes más detallados, por ejemplo UML para modelado de software o BPMN para la descripción de procesos, añadiendo precisión donde sea necesario [1]. ArchiMate aporta la claridad visual indispensable para soportar la formulación e implementación de las hojas de ruta estratégicas de la AE.
+
+La integración de vistas arquitectónicas dentro de ArchiMate se basa en la definición de correspondencias y reglas de transformación hacia otros lenguajes ubicados en distintos niveles de abstracción. Una investigación académica desarrolló un mecanismo para incorporar requerimientos de seguridad desde la capa de negocio de ArchiMate hasta la capa de interfaz de usuario, empleando la extensión BPMN-BPSec y el lenguaje IFML. Este proceso requirió identificar equivalencias entre los requisitos de seguridad definidos en ArchiMate y los representados en BPMN-BPSec, considerando las relaciones contextuales entre los elementos para asegurar una correspondencia modelo a modelo, más allá de simples equivalencias puntuales [2]. En el marco de la Arquitectura Dirigida por Modelos (MDA), la capa de negocio de ArchiMate y BPMN se ubican en el nivel de Modelo Independiente de la Computación, lo que permitió formular reglas de transformación automáticas que habilitan una correspondencia C2C entre ArchiMate y BPMN-BPSec [2]. Estas transformaciones evidencian que es viable mantener la trazabilidad y alineación de los objetivos de seguridad del negocio dentro de las soluciones de TI.
 
 ## 📚 Referencias
-- [1] Apellido, Nombre. *Título*. Año. URL o DOI.
-- [2] Fuente oficial BPMN: https://www.omg.org/spec/BPMN/
+- [1] The Open Group, ArchiMate 101: A Practical Introduction.
+- [2] Universidad del Bío-Bío, Tesis de Magíster en Ciencias de la Computación.
 
 ---
 
