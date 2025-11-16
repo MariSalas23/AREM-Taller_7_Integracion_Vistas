@@ -22,15 +22,15 @@ En cada vista se añadieron tres elementos principales: el objetivo de la vista,
 ## 🧩 Análisis del modelo propuesto
 Incluya un análisis sobre:
 
-- **Cómo se estructura el modelo entregado**
+**Cómo se estructura el modelo entregado**
 
 El modelo se estructura en torno a cinco vistas principales (Negocio, Información, Aplicaciones, Infraestructura y Seguridad), cada una con su propio objetivo, descripción y conjunto de diagramas. Estas vistas se organizan en la wiki siguiendo una secuencia lógica: se parte de los procesos de negocio y las capacidades organizacionales, luego se describen los datos que soportan dichos procesos, después se presentan las aplicaciones que los implementan, posteriormente se detalla la infraestructura tecnológica que los habilita y, finalmente, se incorporan los controles de seguridad que envuelven a todas las capas. Cada vista reutiliza conceptos de las anteriores (por ejemplo, procesos que usan entidades de datos o aplicaciones que consumen esos datos), lo que permite mantener trazabilidad entre decisiones de diseño y elementos arquitectónicos.
 
-- **Cómo representa las necesidades del cliente**
+**Cómo representa las necesidades del cliente**
 
 El modelo representa las necesidades del cliente al centrarse explícitamente en el producto Macia y en la generación de *scores* analíticos para la evaluación de riesgo crediticio. La vista de negocio recoge procesos como la identificación de oportunidades, el diseño de soluciones y la gestión de fuentes de información, alineados con la necesidad de tomar decisiones de crédito más precisas. La vista de información refleja las entidades y datos que el cliente realmente utiliza (clientes, transacciones, cartera, empleadores, indicadores de riesgo), mientras que la vista de aplicaciones muestra cómo APIs, portales y sistemas externos colaboran para entregar esos *scores* a bancos, *fintech* y demás usuarios. Las vistas de infraestructura y seguridad, por su parte, responden a requerimientos de disponibilidad, escalabilidad y cumplimiento normativo propios del sector financiero, utilizando servicios de Azure y, en la versión futura, Snowflake como plataforma analítica central.
 
-- **Qué supuestos se tomaron**
+**Qué supuestos se tomaron**
 
 Entre los principales supuestos se encuentran: 
   - Zajana S.A.S. cuenta con la madurez tecnológica y organizacional para operar sobre Azure y Snowflake.
