@@ -33,9 +33,9 @@ El modelo representa las necesidades del cliente al centrarse explícitamente en
 - **Qué supuestos se tomaron**
 
 Entre los principales supuestos se encuentran: 
-  * Zajana S.A.S. cuenta con la madurez tecnológica y organizacional para operar sobre Azure y Snowflake.
-  * Las fuentes de información externas pueden integrarse mediante APIs y mecanismos de intercambio de datos relativamente estables.
-  * Los clientes del producto Macia requieren niveles altos de disponibilidad, trazabilidad y seguridad por estar regulados por la Superintendencia Financiera.
+  - Zajana S.A.S. cuenta con la madurez tecnológica y organizacional para operar sobre Azure y Snowflake.
+  - Las fuentes de información externas pueden integrarse mediante APIs y mecanismos de intercambio de datos relativamente estables.
+  - Los clientes del producto Macia requieren niveles altos de disponibilidad, trazabilidad y seguridad por estar regulados por la Superintendencia Financiera.
 
 ## 📈 Diagrama final entregado
 
